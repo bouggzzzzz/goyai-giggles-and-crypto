@@ -5,7 +5,7 @@ import { Github, Twitter, MessageSquare } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-goyai-gold/10">
+    <div className="min-h-screen bg-gradient-to-br from-white via-goyai-gold/10 to-white animate-gradient">
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16 text-center">
         <h1 className="text-5xl font-bold text-goyai-blue mb-4 animate-float">
