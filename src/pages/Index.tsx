@@ -2,7 +2,7 @@ import { GoyAIChat } from "@/components/GoyAIChat";
 import { Tokenomics } from "@/components/Tokenomics";
 import { Roadmap } from "@/components/Roadmap";
 import { Button } from "@/components/ui/button";
-import { Github, Twitter, Discord } from "lucide-react";
+import { Github, Twitter, MessageSquare } from "lucide-react";
 
 const Index = () => {
   return (
@@ -51,7 +51,7 @@ const Index = () => {
             Twitter
           </Button>
           <Button variant="outline" className="gap-2">
-            <Discord className="w-5 h-5" />
+            <MessageSquare className="w-5 h-5" />
             Discord
           </Button>
           <Button variant="outline" className="gap-2">

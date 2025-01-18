@@ -26,12 +26,12 @@ export const GoyAIChat = () => {
   const handleSend = () => {
     if (!input.trim()) return;
 
-    const newMessages = [
+    const newMessages: Message[] = [
       ...messages,
-      { text: input, sender: "user" },
+      { text: input, sender: "user" as const },
       { 
         text: mockResponses[Math.floor(Math.random() * mockResponses.length)],
-        sender: "goyai"
+        sender: "goyai" as const
       }
     ];
     
