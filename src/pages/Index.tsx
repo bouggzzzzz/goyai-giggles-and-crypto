@@ -6,7 +6,7 @@ import { Github, Twitter, MessageSquare } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-b from-white to-goyai-gold/10">
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16 text-center">
         <h1 className="text-5xl font-bold text-goyai-blue mb-4 animate-float">
@@ -46,15 +46,17 @@ const Index = () => {
           Join Our Community
         </h2>
         <div className="flex justify-center gap-6">
-          <Button variant="outline" className="gap-2">
-            <Twitter className="w-5 h-5" />
-            Twitter
+          <Button variant="outline" className="gap-2 hover:bg-goyai-gold/20" asChild>
+            <a href="https://x.com/GOYAI_ONSOL" target="_blank" rel="noopener noreferrer">
+              <Twitter className="w-5 h-5" />
+              Twitter
+            </a>
           </Button>
-          <Button variant="outline" className="gap-2">
+          <Button variant="outline" className="gap-2 hover:bg-goyai-gold/20">
             <MessageSquare className="w-5 h-5" />
             Discord
           </Button>
-          <Button variant="outline" className="gap-2">
+          <Button variant="outline" className="gap-2 hover:bg-goyai-gold/20">
             <Github className="w-5 h-5" />
             GitHub
           </Button>
