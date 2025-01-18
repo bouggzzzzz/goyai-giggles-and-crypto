@@ -1,5 +1,4 @@
 import { GoyAIChat } from "@/components/GoyAIChat";
-import { Tokenomics } from "@/components/Tokenomics";
 import { Roadmap } from "@/components/Roadmap";
 import { Button } from "@/components/ui/button";
 import { Github, Twitter, MessageSquare } from "lucide-react";
@@ -28,11 +27,6 @@ const Index = () => {
       {/* Chat Section */}
       <section className="container mx-auto px-4 py-16">
         <GoyAIChat />
-      </section>
-
-      {/* Tokenomics Section */}
-      <section className="container mx-auto px-4 py-16">
-        <Tokenomics />
       </section>
 
       {/* Roadmap Section */}
