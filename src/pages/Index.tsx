@@ -1,7 +1,7 @@
 import { GoyAIChat } from "@/components/GoyAIChat";
 import { Roadmap } from "@/components/Roadmap";
 import { Button } from "@/components/ui/button";
-import { Github, Twitter, MessageSquare } from "lucide-react";
+import { Twitter } from "lucide-react";
 
 const Index = () => {
   return (
@@ -39,20 +39,12 @@ const Index = () => {
         <h2 className="text-3xl font-bold text-goyai-blue mb-8">
           Join Our Community
         </h2>
-        <div className="flex justify-center gap-6">
+        <div className="flex justify-center">
           <Button variant="outline" className="gap-2 hover:bg-goyai-gold/20" asChild>
             <a href="https://x.com/GOYAI_ONSOL" target="_blank" rel="noopener noreferrer">
               <Twitter className="w-5 h-5" />
               Twitter
             </a>
-          </Button>
-          <Button variant="outline" className="gap-2 hover:bg-goyai-gold/20">
-            <MessageSquare className="w-5 h-5" />
-            Discord
-          </Button>
-          <Button variant="outline" className="gap-2 hover:bg-goyai-gold/20">
-            <Github className="w-5 h-5" />
-            GitHub
           </Button>
         </div>
       </section>
